@@ -29,9 +29,7 @@ public class Person implements Comparable<Person> {
         this.aliases = aliases;
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
     public int getAge() {
         return age;
